@@ -7,12 +7,19 @@ Here Hand landmarks detection and tracking is used in order to achieve the objec
 
 # Algorithm
 Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
+
 Prepare the canvas frame and put the respective ink buttons on it.
+
 Adjust the values of teh mediapipe intilization to detect one hand only.
+
 Detect teh landmarks by passing the RGB frame to the mediapipe hand detector
+
 Detect the landmarks, find the forefinger coordinates and keep storing them in the array for successive frames .(Arrays for drawing points on canvas)
+
 Finally draw the points stored in array on the frames and canvas .
+
 Requirements: python3 , numpy , opencv, mediapipe installed on your system.
+
 
 ![image](https://github.com/user-attachments/assets/ee0c5b0b-4717-4f05-b4d2-f6e48e7aea5c)
 
